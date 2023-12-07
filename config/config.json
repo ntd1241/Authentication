@@ -1,0 +1,37 @@
+{
+  "development": {
+    "username": "postgres_exercise_db_user",
+    "password": "PMp7WMr2XfD59hiwZE44eVelzTq2S1Gf",
+    "database": "postgres_exercise_db",
+    "host": "dpg-clh0cgt8td7s73bld55g-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "port": 5432,
+    "dialectOptions": {
+        "ssl": {
+            "require": true,
+            "rejectUnauthorized": false
+        }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "postgres_exercise_db_user",
+    "password": "PMp7WMr2XfD59hiwZE44eVelzTq2S1Gf",
+    "database": "postgres_exercise_db",
+    "host": "dpg-clh0cgt8td7s73bld55g-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "port": 5432,
+    "dialectOptions": {
+        "ssl": {
+            "require": true,
+            "rejectUnauthorized": false
+        }
+    }
+  }
+}
